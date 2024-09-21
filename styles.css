@@ -8,7 +8,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 400%;
     margin: auto;
     padding: 20px;
     background-color: #fff;

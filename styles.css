@@ -1,16 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    padding:auto;
+    background-color: #ff0000;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    width: 400%;
+    width: 105%;
     margin: auto;
-    padding: 20px;
+    padding: -4px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -107,12 +106,12 @@ body {
 }
 .cta-button {
     display: flex;
-    margin: 20px auto;
+    margin: 10PX auto;
     padding: 10px 20px;
     background-color: #ff6f61;
     color: #fff;
     text-decoration: none;
-    font-size: 2.3em;
+    font-size: 2.1em;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     animation: blink-text 0.5s infinite;
@@ -135,7 +134,7 @@ body {
     100% { transform: scale(1); }
 }
 .animated-number {
-    font-size: 24px;
+    font-size: 53px;
     font-weight: bold;
     animation: pulse 2s infinite;
     margin-top: 5px;
@@ -146,16 +145,18 @@ body {
 }
 .containerr {
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    padding: 30px;
+    border-radius: NONE;
+    padding: 29px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 350px;
 }
-h2 {
+p {
     color: #4a4a4a;
     text-align: center;
-    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 form {
     display: flex;

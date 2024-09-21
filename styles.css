@@ -6,6 +6,8 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 80%;
     margin: auto;
     padding: 20px;
@@ -34,9 +36,7 @@ body {
 
 .product-image {
     display: flex;
-    margin: 0px;
-    margin-top: 0%; /* Menghilangkan margin untuk menyatukan gambar */
-    max-width: 0%;
+    margin: -4px;
     height: 0px;
     padding: 0px; /* Menghilangkan padding untuk menyatukan gambar */
 }
@@ -135,7 +135,7 @@ body {
     100% { transform: scale(1); }
 }
 .animated-number {
-    font-size: 85px;
+    font-size: 24px;
     font-weight: bold;
     animation: pulse 2s infinite;
     margin-top: 5px;

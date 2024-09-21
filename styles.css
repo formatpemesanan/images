@@ -146,9 +146,9 @@ body {
     background-color: #ffe6e6;
 }
 .containerr {
-    background-color: rgba(92, 255, 147, 0.9);
+    background-color: rgba(251, 184, 220, 0.9);
     border-radius: NONE;
-    border: 2px solid #000000;
+    border: 2px solid #f30000;
     padding: 29px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     width: 90%;

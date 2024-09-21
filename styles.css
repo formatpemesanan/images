@@ -33,7 +33,7 @@ body {
 }
 
 .product-image {
-    display: block;
+    display: flex;
     margin: 0px;
     margin-top: 0%; /* Menghilangkan margin untuk menyatukan gambar */
     max-width: 0%;
@@ -106,7 +106,7 @@ body {
     }
 }
 .cta-button {
-    display: inline-block;
+    display: flex;
     margin: 20px auto;
     padding: 10px 20px;
     background-color: #ff6f61;
@@ -115,7 +115,6 @@ body {
     font-size: 2.3em;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-left: 350px;
     animation: blink-text 0.5s infinite;
     -webkit-animation: blink-text 0.5s infinite;
 }
@@ -140,7 +139,7 @@ body {
     font-weight: bold;
     animation: pulse 2s infinite;
     margin-top: 5px;
-    margin-right: 47PX;
+    margin: 20px auto;
     color: #d60b00;
     border: 2px solid #ff3b2f; 
     background-color: #ffe6e6;

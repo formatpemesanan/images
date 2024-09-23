@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     padding:none;
     background-color: hsl(0, 0%, 100%);
-    margin-right: 0px;
+    width: 100%;
     margin-left: 0px;
-    max-width: 400px;
+    max-width: 374px;
+    padding: auto;
 }
-
 .container {
     display: flex;
     flex-direction: column;

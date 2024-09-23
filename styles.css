@@ -5,7 +5,7 @@ body {
     width: 100%;
     margin: 0; /* Mengatur margin atas dan bawah menjadi 0 */
     max-width: 100%;
-    width: 90%;
+    width: 97%;
     display: flex;
     flex-direction: column;
     align-items: center; /* Menyelaraskan konten ke tengah secara horizontal */

@@ -256,8 +256,8 @@ select option {
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 2px;
-    width:225px;
-    margin-left: 65px;
+    width:220px;
+    margin-inline: auto;
     animation: blink-text 0.5s infinite;
     -webkit-animation: blink-text 0.8s infinite;
     margin-bottom: 20px;

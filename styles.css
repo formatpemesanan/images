@@ -1,11 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    padding:none;
+    padding: none;
     background-color: hsl(0, 0%, 100%);
     width: 100%;
-    margin-left: 0px;
-    max-width: 374px;
-    padding: auto;
+    margin: 0; /* Mengatur margin atas dan bawah menjadi 0 */
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Menyelaraskan konten ke tengah secara horizontal */
+    justify-content: center; /* Menyelaraskan konten ke tengah secara vertikal */
+    overflow-x: hidden; /* Mencegah pengguliran horizontal */
+    height: auto; 
 }
 .container {
     display: flex;

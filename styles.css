@@ -167,9 +167,9 @@ body {
 form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-content: center;
 }
-
-
 input, textarea, select {
     margin-bottom: 10px;
     padding: 12px;

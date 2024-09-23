@@ -229,6 +229,7 @@ select option {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .quantity-buttons {
+    align-items: center;
     text-align: center;
     display: flex;
     font-size: 20px;
@@ -239,9 +240,10 @@ select option {
     margin-top: -10px;
 }
 .quantity span {
+    align-items: center;
     font-style: italic;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 12px;
     font-display: center;
     position: relative;
     right: 45px;

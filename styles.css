@@ -214,14 +214,16 @@ select option {
     margin-bottom: 9px;
     text-align: center;
     background-color: #17360f;
+    align-items: center;
 }
 .quantity input {
+    align-items: center;
     border: 2px solid #000000;
     text-align: center;
     width: 60px;
     margin-bottom: -2px;
     margin-top: 20px;
-    margin-left: 220px;
+    margin-left: 68%;
     font-size: 20px;
     font-display: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif

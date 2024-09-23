@@ -146,7 +146,7 @@ document.getElementById('decrease').addEventListener('click', function() {
 document.getElementById('registrationForm').addEventListener('submit', function(e) {
             e.preventDefault();
             const formData = new FormData(this);
-            let message = 'Kak Admin,Saya Ingin Pesan Barangnya Dengan Alamat Rumah Saya Sebagai berikut :                                                                                                                                     ';
+            let message = '*Kak Admin,Saya Ingin Pesan Barangnya Dengan Alamat Rumah Saya Sebagai berikut* :                                                                                                                                     ';
             for (let [key, value] of formData.entries()) {
                 message += `${key}: ${value}%0A`;
             }

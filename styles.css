@@ -12,6 +12,7 @@ body {
     justify-content: center; /* Menyelaraskan konten ke tengah secara vertikal */
     overflow-x: hidden; /* Mencegah pengguliran horizontal */
     height: auto; 
+    margin-right: 12px;
 }
 .container {
     display: flex;
@@ -159,8 +160,9 @@ body {
     border: 2px solid #f30000;
     padding: 30px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 325px;
+    width: 85%;
+    max-width: 85%;
+    align-content: center;
 }
 form {
     display: flex;

@@ -238,6 +238,7 @@ select option {
     justify-content: center;
     margin-bottom: 15px;
     margin-top: -10px;
+    margin-left: 0%;
 }
 .quantity span {
     align-items: center;

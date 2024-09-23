@@ -2,8 +2,9 @@ body {
     font-family: Arial, sans-serif;
     padding:none;
     background-color: hsl(0, 0%, 100%);
-    margin-right: 15px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 400px;
 }
 
 .container {

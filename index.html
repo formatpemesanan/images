@@ -195,6 +195,10 @@ document.getElementById('registrationForm').addEventListener('submit', function(
             for (let [key, value] of formData.entries()) {
                 message += `${key}: ${value}%0A`;
             }
+            fbq('track', 'Purchase', {
+            value: 120000, // Adjust value if needed
+            currency: 'IDR'
+        });
             window.open(`https://wa.me/6285794040978?text=${message}`, '_blank');
         });
     </script>

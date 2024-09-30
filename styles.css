@@ -5,7 +5,7 @@ body {
     width: 100%;
     margin: 0; /* Mengatur margin atas dan bawah menjadi 0 */
     max-width: 100%;
-    width: 97%;
+    width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center; /* Menyelaraskan konten ke tengah secara horizontal */
@@ -14,6 +14,7 @@ body {
     height: auto; 
     margin-right: 12px;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -30,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .header h1 {
@@ -168,8 +170,10 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-content: center;
+    align-content:center;
 }
+
+
 input, textarea, select {
     margin-bottom: 10px;
     padding: 12px;
@@ -244,7 +248,7 @@ select option {
     align-items: center;
     font-style: italic;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 14px;
     font-display: center;
     position: relative;
     right: 45px;
@@ -261,7 +265,7 @@ select option {
     width: 225px;
     border: 2px solid #003e19;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 26px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 2px;
@@ -271,6 +275,7 @@ select option {
     margin-bottom: 20px;
 }
 .cara-pembayaran {
+    align-items: center;
     color: #001c80;
     font-style:italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -305,4 +310,6 @@ select option {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-bottom: 100px;
 }
+

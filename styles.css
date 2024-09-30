@@ -278,3 +278,31 @@ select option {
     margin-right: 10px;
     margin-top: -36px;
 }   
+
+#consultationForm input,
+#consultationForm button {
+    display: block;
+    width: 94%;
+    margin-bottom: 10px; /* Atur jarak antar elemen dalam form */
+    padding: 10px;
+    font-size: 16px;
+}
+
+#consultationForm button {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none;
+    cursor: pointer;
+}
+
+#consultationForm button:hover {
+    background-color: #45a049; /* Warna latar belakang tombol saat hover */
+}
+.konsultasiform {
+    background-color: #0b5343da;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}

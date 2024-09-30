@@ -27,7 +27,7 @@
             <div class="animated-number">150.000</div>
         </div>
         <a href="#registrationForm" class="cta-button">Beli Sekarang</a>
-        <a href="https://wa.me/6285794040978?text=Halo%20kakk,%20saya%20ingin%20konsultasi%20keluhan%20wajah." class="cta-konsul" >Konsultasi Sekarang</a>
+        <a href="#consultationForm" class="cta-konsul" >Konsultasi Sekarang</a>
     </div>
     <div class="containerr"
     <p style="font-size: 17px; border: 1px solid #ffffff;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Untuk Pemesanan Silahkan Isi Formulir Pemesanan Dibawah Ini, otomatis akan di kirim ke nomor WA admin kami</p>
@@ -83,7 +83,7 @@
             <input type="number" name="*JUMLAH PAKET YANG DIPESAN* " id="jumlahBarang" value="1" min="1" required>
             <span class="quantity-text">JUMLAH PAKET YANG DIPESAN ➔</span>
             <div class="quantity-buttons">
-                <select name="*CARA PEMBAYARAN* " id="caraPembayaran" class="cara-pembayaran">
+                <select name="CARA PEMBAYARAN " id="caraPembayaran" class="cara-pembayaran">
                     <option value="">Pilih Cara Pembayaran</option>
                     <option value="COD">COD (Bayar Ditempat)</option>
                     <option value="TRANSFER">TRANSFER</option>
@@ -93,7 +93,24 @@
             </div>
         </div>
         <button type="submit">Lanjutkan Ke WA</button>
+        </div>
     </form>
+    <div class="konsultasiform" style="background-color: #0b5343da;margin-top: 30px;display: flex; justify-content: center; align-items: center;">
+        <form id="consultationForm" name="formulir-konsultasi">
+            <p style="text-align: center;color: #ffffff;font-size: 17px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Untuk Konsultasi Silahkan Isi Formulir Dibawah Ini, otomatis akan di kirim ke nomor WA admin kami</p>
+            <input type="text" name="*NAMA*" placeholder="Nama Lengkap" required>
+            <select name="*JENIS KELUHAN*" required>
+                <option value="">Pilih Jenis Keluhan</option>
+                <option value="Flek Hitam">Flek Hitam</option>
+                <option value="Jerawat">BerJerawat</option>
+                <option value="Kusam">Kusam</option>
+                <option value="Kurang Putih">Kurang Putih</option>
+                <option value="Bintik Hitam">Bintik Hitam</option>
+                <option value="Semuanya">Semuanya</option>
+            </select>
+            <button type="submit" style="font-size: 23px;border:2px solid #ffffff;">Konsultasi Sekarang</button>
+        </form>
+    </div>
 </div>
 <script src="data.js"></script>
 <script>
@@ -142,11 +159,19 @@ document.getElementById('decrease').addEventListener('click', function() {
         jumlahBarang.value = parseInt(jumlahBarang.value) - 1;
     }
 });
-
+document.getElementById('consultationForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const formData = new FormData(this);
+    let message = 'Halo kak, saya ingin konsultasi terkait keluhan wajah saya sebagai berikut:%0A';
+    for (let [key, value] of formData.entries()) {
+        message += `${key}: ${value}%0A`;
+    }
+    window.open(`https://wa.me/6285794040978?text=${message}`, '_blank');
+});
 document.getElementById('registrationForm').addEventListener('submit', function(e) {
             e.preventDefault();
             const formData = new FormData(this);
-            let message = '*Kak Admin,Saya Ingin Pesan Barangnya Dengan Alamat Rumah Saya Sebagai berikut* :                                                                                                                                     ';
+            let message = 'Kak Admin,Saya Ingin Pesan Barangnya Dengan Alamat Rumah Saya Sebagai berikut :                                                                                                                                     ';
             for (let [key, value] of formData.entries()) {
                 message += `${key}: ${value}%0A`;
             }

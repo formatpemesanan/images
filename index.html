@@ -195,6 +195,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
             for (let [key, value] of formData.entries()) {
                 message += `${key}: ${value}%0A`;
             }
+    
             fbq('track', 'Purchase', {
             value: 150000,
             currency: 'IDR'

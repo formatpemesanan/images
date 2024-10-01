@@ -12,7 +12,6 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '505005252300402');
-fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=505005252300402&ev=PageView&noscript=1"
@@ -119,8 +118,7 @@ src="https://www.facebook.com/tr?id=505005252300402&ev=PageView&noscript=1"
             <input type="number" name="*JUMLAH PAKET YANG DIPESAN* " id="jumlahBarang" value="1" min="1" required>
             <span class="quantity-text">JUMLAH PAKET YANG DIPESAN ➔</span>
             <div class="quantity-buttons">
-                <select name="*CARA PEMBAYARAN* " id="caraPembayaran" class="cara-pembayaran">
-                    <option value="">Pilih Cara Pembayaran</option>
+                <select name="*CARA PEMBAYARAN* " id="caraPembayaran" class="cara-pembayaran" required>
                     <option value="COD">COD (Bayar Ditempat)</option>
                     <option value="TRANSFER">TRANSFER</option>
                 </select>
